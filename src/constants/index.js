@@ -190,11 +190,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Hadi optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    // designation: "CTO",
-    // company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Seeking excellence in his work with great respect for his adoptive company. Facing every challenge presented in his way with great enthusiasm, and indeed with his determination and will he succeeds at tackling the obstacles.",
+    name: "Adi Ghoumaed",
+    // designation: "Senior software engineer",
+    // company: "Cisco Systems LTD.",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -236,6 +236,10 @@ const projects = [
       {
         name: "nextjs",
         color: "orange-text-gradient",
+      },
+      {
+        name: "SSR",
+        color: "blue-text-gradient",
       },
       {
         name: "responsive",
