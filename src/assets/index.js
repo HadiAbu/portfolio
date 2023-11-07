@@ -36,6 +36,7 @@ import polar from "./company/polar.jpg";
 import worldRanks from "./proj/world-ranks.png";
 import dynamicDash from "./proj/dynamic-dash.png";
 import shoppingCart from "./proj/shopping-cart.png";
+import puzzleMaker from "./proj/puzzle.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   worldRanks,
   dynamicDash,
   shoppingCart,
+  puzzleMaker,
 };

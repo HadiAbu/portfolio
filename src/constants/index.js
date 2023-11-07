@@ -24,6 +24,7 @@ import {
   worldRanks,
   dynamicDash,
   shoppingCart,
+  puzzleMaker,
   threejs,
 } from "../assets";
 
@@ -222,7 +223,7 @@ const projects = [
       },
     ],
     image: dynamicDash,
-    source_code_link: "https://github.com/HadiAbu/dynamic-dashboard",
+    source_code_link: "https://dynamic-dashboard.vercel.app/",
   },
   {
     name: "World Ranks",
@@ -247,7 +248,7 @@ const projects = [
       },
     ],
     image: worldRanks,
-    source_code_link: "https://github.com/HadiAbu/world-ranks",
+    source_code_link: "https://world-ranks-red.vercel.app/",
   },
   {
     name: "Shopping Cart",
@@ -268,7 +269,27 @@ const projects = [
       },
     ],
     image: shoppingCart,
-    source_code_link: "https://github.com/HadiAbu/shopping-cart-proj",
+    source_code_link: "https://shopping-cart-proj.vercel.app/",
+  },
+  {
+    name: "Puzzle Maker",
+    description: "Create your own Puzzle by slicing pieces on Canvas.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Konva",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: puzzleMaker,
+    source_code_link: "https://tinytap-puzzle-h9z8.vercel.app/",
   },
 ];
 
