@@ -25,6 +25,7 @@ import {
   dynamicDash,
   shoppingCart,
   puzzleMaker,
+  gyg,
   threejs,
 } from "../assets";
 
@@ -272,24 +273,29 @@ const projects = [
     source_code_link: "https://shopping-cart-proj.vercel.app/",
   },
   {
-    name: "Puzzle Maker",
-    description: "Create your own Puzzle by slicing pieces on Canvas.",
+    name: "Green-Yellow Graph",
+    description:
+      "A demo app that builds a graph from a linked list and decides if two connected nodes never have the same color, and the graph is a connected graph.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "React-Konva",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "responsive",
+        name: "MaterialUI",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Graphs and algorithms",
         color: "pink-text-gradient",
       },
     ],
-    image: puzzleMaker,
-    source_code_link: "https://tinytap-puzzle-h9z8.vercel.app/",
+    image: gyg,
+    source_code_link: "https://green-yellow-graph.vercel.app/",
   },
 ];
 

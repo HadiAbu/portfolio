@@ -37,6 +37,7 @@ import worldRanks from "./proj/world-ranks.png";
 import dynamicDash from "./proj/dynamic-dash.png";
 import shoppingCart from "./proj/shopping-cart.png";
 import puzzleMaker from "./proj/puzzle.png";
+import gyg from "./proj/gyg.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   dynamicDash,
   shoppingCart,
   puzzleMaker,
+  gyg,
 };
