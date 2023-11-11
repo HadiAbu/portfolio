@@ -252,27 +252,6 @@ const projects = [
     source_code_link: "https://world-ranks-red.vercel.app/",
   },
   {
-    name: "Shopping Cart",
-    description:
-      "This shopping cart website was made as a learning project.      ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "responsive",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: shoppingCart,
-    source_code_link: "https://shopping-cart-proj.vercel.app/",
-  },
-  {
     name: "Green-Yellow Graph",
     description:
       "A demo app that builds a graph from a linked list and decides if two connected nodes never have the same color, and the graph is a connected graph.",
@@ -297,6 +276,27 @@ const projects = [
     image: gyg,
     source_code_link: "https://green-yellow-graph.vercel.app/",
   },
+  {
+    name: "Shopping Cart",
+    description:
+      "This shopping cart website was made as a learning project.      ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shoppingCart,
+    source_code_link: "https://shopping-cart-proj.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
