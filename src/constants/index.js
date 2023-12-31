@@ -124,7 +124,7 @@ const experiences = [
     company_name: "Ellipsis Drive",
     icon: ellipsis,
     iconBg: "#383E56",
-    date: "Jan 2022 - Dec 2022",
+    date: "Jan 2022 - Jun 2023",
     points: [
       "Strong focus on user experience (UX/UI)",
       "Developing core features of the company website in ReactJS",
