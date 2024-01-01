@@ -176,19 +176,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Hadi proved me wrong.",
-    name: "Sara Lee",
+      "Stayed up to date with emerging technologies and industry trends to create modern, accessible web interfaces.",
+    name: "Lorain Safori",
     // designation: "CFO",
     // company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Hadi does.",
-    name: "Chris Brown",
+      "Enhanced our user experience by implementing responsive design principles, ensuring seamless and visually appealing interactions across various devices.",
+    name: "Ahmad Gaser",
     // designation: "COO",
     // company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -196,7 +196,7 @@ const testimonials = [
     name: "Adi Ghoumaed",
     // designation: "Senior software engineer",
     // company: "Cisco Systems LTD.",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
+    // image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -296,7 +296,7 @@ const projects = [
     ],
     image: shoppingCart,
     source_code_link: "https://shopping-cart-proj.vercel.app/",
-  }
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
