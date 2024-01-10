@@ -23,30 +23,31 @@ import {
   polar,
   worldRanks,
   dynamicDash,
-  shoppingCart,
-  puzzleMaker,
+  // shoppingCart,
+  // puzzleMaker,
+  lifeismusic,
   gyg,
   threejs,
-} from "../assets";
+} from '../assets';
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: 'Web Developer',
     icon: web,
   },
   // {
@@ -54,62 +55,62 @@ const services = [
   //   icon: mobile,
   // },
   {
-    title: "Backend Developer",
+    title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: 'Content Creator',
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: 'Three JS',
     icon: threejs,
   },
   {
-    name: "git",
+    name: 'git',
     icon: git,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: figma,
   },
   // {
@@ -120,55 +121,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front End Developer",
-    company_name: "Ellipsis Drive",
+    title: 'Front End Developer',
+    company_name: 'Ellipsis Drive',
     icon: ellipsis,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jun 2023",
+    iconBg: '#383E56',
+    date: 'Jan 2022 - Jun 2023',
     points: [
-      "Strong focus on user experience (UX/UI)",
-      "Developing core features of the company website in ReactJS",
-      "creating spatial maps and graphs to payment and producing invoices.",
+      'Strong focus on user experience (UX/UI)',
+      'Developing core features of the company website in ReactJS',
+      'creating spatial maps and graphs to payment and producing invoices.',
       "I was responsible for enhancing the platform's usability and performance",
-      "Taking a major part in meetings and influencing the whole design and development process.",
+      'Taking a major part in meetings and influencing the whole design and development process.',
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Polar",
+    title: 'Web Developer',
+    company_name: 'Polar',
     icon: polar,
-    iconBg: "#383E56",
-    date: "Aug 2021 - Nov 2021",
+    iconBg: '#383E56',
+    date: 'Aug 2021 - Nov 2021',
     points: [
-      "Taking charge of implementing several pages of the website and app",
-      "Maintaining legacy code and tests building",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Taking charge of implementing several pages of the website and app',
+      'Maintaining legacy code and tests building',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
   {
-    title: "Front End Developer",
-    company_name: "Colabo",
+    title: 'Front End Developer',
+    company_name: 'Colabo',
     icon: colabo,
-    iconBg: "#E6DEDD",
-    date: "Jan 2019 - May 2020",
+    iconBg: '#E6DEDD',
+    date: 'Jan 2019 - May 2020',
     points: [
-      "Taking a major part in building the company web based E-commerce system",
-      "Collaborating with the Back-End and QA teams to perfect the features we’re handling.",
-      "Writing unit tests, end to end tests (using Jest/Enzyme) along the development process and maintaining a healthy production environment.",
-      "Taking responsibility and participating in kickoffs with a remote team lead",
+      'Taking a major part in building the company web based E-commerce system',
+      'Collaborating with the Back-End and QA teams to perfect the features we’re handling.',
+      'Writing unit tests, end to end tests (using Jest/Enzyme) along the development process and maintaining a healthy production environment.',
+      'Taking responsibility and participating in kickoffs with a remote team lead',
     ],
   },
   {
-    title: "Automation Engineer",
-    company_name: "Cisco",
+    title: 'Automation Engineer',
+    company_name: 'Cisco',
     icon: cisco,
-    iconBg: "#E6DEDD",
-    date: "June 2015 - March 2016",
+    iconBg: '#E6DEDD',
+    date: 'June 2015 - March 2016',
     points: [
-      "Stabilizing Cisco ISE system (a network administration product that enables the creation and enforcement of security policies) through writing automation, tests and developing infrastructure",
-      "Developing automation in Java and Python.",
-      "Maintaining legacy code and tests building",
+      'Stabilizing Cisco ISE system (a network administration product that enables the creation and enforcement of security policies) through writing automation, tests and developing infrastructure',
+      'Developing automation in Java and Python.',
+      'Maintaining legacy code and tests building',
     ],
   },
 ];
@@ -176,24 +177,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Stayed up to date with emerging technologies and industry trends to create modern, accessible web interfaces.",
-    name: "Lorain Safori",
+      'Stayed up to date with emerging technologies and industry trends to create modern, accessible web interfaces.',
+    name: 'Lorain Safori',
     // designation: "CFO",
     // company: "Acme Co",
     // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "Enhanced our user experience by implementing responsive design principles, ensuring seamless and visually appealing interactions across various devices.",
-    name: "Ahmad Gaser",
+      'Enhanced our user experience by implementing responsive design principles, ensuring seamless and visually appealing interactions across various devices.',
+    name: 'Ahmad Gaser',
     // designation: "COO",
     // company: "DEF Corp",
     // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "Seeking excellence in his work with great respect for his adoptive company. Facing every challenge presented in his way with great enthusiasm, and indeed with his determination and will he succeeds at tackling the obstacles.",
-    name: "Adi Ghoumaed",
+      'Seeking excellence in his work with great respect for his adoptive company. Facing every challenge presented in his way with great enthusiasm, and indeed with his determination and will he succeeds at tackling the obstacles.',
+    name: 'Adi Ghoumaed',
     // designation: "Senior software engineer",
     // company: "Cisco Systems LTD.",
     // image: "https://randomuser.me/api/portraits/men/6.jpg",
@@ -202,100 +203,104 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Dynamic Dashboard",
+    name: 'Life Is Music | Music Discovery App',
     description:
-      "Fully functional front-end project with the all the important and most common used features used in modren day web; Dashboard, Calendar, Charts, Colro themes, Siderbar, Tables of data and more..",
+      'Music Discovery App, with Top Charts, Top Artists, Music around you and Lyrics finder',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "Syncfusion",
-        color: "green-text-gradient",
+        name: 'RapidApi',
+        color: 'green-text-gradient',
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: 'tailwind',
+        color: 'pink-text-gradient',
       },
       {
-        name: "ChartJS",
-        color: "orange-text-gradient",
+        name: 'Redux',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: lifeismusic,
+    source_code_link: 'https://lifeismusic-hadi.netlify.app/',
+  },
+  {
+    name: 'Dynamic Dashboard',
+    description:
+      'Fully functional front-end project with the all the important and most common used features used in modren day web; Dashboard, Calendar, Charts, Colro themes, Siderbar, Tables of data and more..',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Syncfusion',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'ChartJS',
+        color: 'orange-text-gradient',
       },
     ],
     image: dynamicDash,
-    source_code_link: "https://dynamic-dashboard.vercel.app/",
+    source_code_link: 'https://dynamic-dashboard.vercel.app/',
   },
   {
-    name: "World Ranks",
+    name: 'Green-Yellow Graph',
     description:
-      "A fullstack project built in React + NextJS, displaying information like population, area, gini, capital, spoken languages,...",
+      'A demo app that builds a graph from a linked list and decides if two connected nodes never have the same color, and the graph is a connected graph.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "nextjs",
-        color: "orange-text-gradient",
+        name: 'Typescript',
+        color: 'green-text-gradient',
       },
       {
-        name: "SSR",
-        color: "blue-text-gradient",
+        name: 'MaterialUI',
+        color: 'orange-text-gradient',
       },
       {
-        name: "responsive",
-        color: "green-text-gradient",
-      },
-    ],
-    image: worldRanks,
-    source_code_link: "https://world-ranks-red.vercel.app/",
-  },
-  {
-    name: "Green-Yellow Graph",
-    description:
-      "A demo app that builds a graph from a linked list and decides if two connected nodes never have the same color, and the graph is a connected graph.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MaterialUI",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Graphs and algorithms",
-        color: "pink-text-gradient",
+        name: 'Graphs and algorithms',
+        color: 'pink-text-gradient',
       },
     ],
     image: gyg,
-    source_code_link: "https://green-yellow-graph.vercel.app/",
+    source_code_link: 'https://green-yellow-graph.vercel.app/',
   },
   {
-    name: "Shopping Cart",
+    name: 'World Ranks',
     description:
-      "This shopping cart website was made as a learning project.      ",
+      'A fullstack project built in React + NextJS, displaying information like population, area, gini, capital, spoken languages,...',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient',
       },
       {
-        name: "typescript",
-        color: "green-text-gradient",
+        name: 'nextjs',
+        color: 'orange-text-gradient',
       },
       {
-        name: "responsive",
-        color: "pink-text-gradient",
+        name: 'SSR',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'responsive',
+        color: 'green-text-gradient',
       },
     ],
-    image: shoppingCart,
-    source_code_link: "https://shopping-cart-proj.vercel.app/",
+    image: worldRanks,
+    source_code_link: 'https://world-ranks-red.vercel.app/',
   },
 ];
 
