@@ -3,7 +3,7 @@ import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { services } from '../constants';
+import { services, socialLinks } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 
@@ -52,6 +52,22 @@ const About = () => {
         quick learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        <span className="font-thin text-2xl">Links:</span>
+        <br />
+        {socialLinks?.map((link, i) => (
+          <span key={i}>
+            <a href={link.link} className="text-quadrary" target="_blank">
+              <span className="underline text-white">{link.name}</span>
+            </a>
+            <span>, </span>
+          </span>
+        ))}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

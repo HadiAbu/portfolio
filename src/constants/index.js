@@ -303,5 +303,21 @@ const projects = [
     source_code_link: 'https://world-ranks-red.vercel.app/',
   },
 ];
+const socialLinks = [
+  { name: 'LinkedIn', link: 'https://linkedin.com/in/hadiabu/' },
+  { name: 'GitHub', link: 'https://github.com/HadiAbu/ ' },
+  {
+    name: 'StackOverflow',
+    link: 'https://stackoverflow.com/users/2374685/hadi-abu',
+  },
+  { name: 'Kaggle', link: 'https://www.kaggle.com/callmeriver' },
+];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialLinks,
+};

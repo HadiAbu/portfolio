@@ -18,8 +18,9 @@ const Hero = () => {
             Hi, I'm <span className="text-black-100">Hadi</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop inspiring user <br className="sm:block hidden" />
-            interfaces and web applications
+            Crafting Intuitive Experiences: <br className="sm:block hidden" />A
+            Frontend Developer's <br className="sm:block hidden" />
+            Creative Journey
           </p>
         </div>
       </div>
@@ -27,12 +28,11 @@ const Hero = () => {
       <br />
       <br />
       <br />
-      {/* <ComputersCanvas /> */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-end items-center pr-10">
+      <div className="absolute flex xs:bottom-10 bottom-10 w-full sm:justify-end justify-center items-center sm:pr-5">
         <img
           src={profile}
           alt="PROFILE"
-          className="w-[22rem] h-[30rem] object-cover rounded-full"
+          className="lg:w-[22rem] lg:wh-[30rem] sm:w-[16rem] sm:h-[22rem] w-[9rem] h-[9rem] object-cover rounded-full"
         />
       </div>
     </section>
