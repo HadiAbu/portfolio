@@ -25,15 +25,19 @@ const ProjectCard = ({
           speed: 450,
         }}
         className="bg-quadrary p-5 rounded-2xl sm:w-[360px] w-full"
+        onClick={() => window.open(source_code_link, '_blank')}
       >
-        <div className="relative w-full h-[230px]">
+        <div
+          className="relative w-full h-[230px]"
+          onClick={() => window.open(source_code_link, '_blank')}
+        >
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl cursor-pointer"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          {/* <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, '_blank')}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -44,7 +48,7 @@ const ProjectCard = ({
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-5 ">
